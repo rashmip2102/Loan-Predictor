@@ -2,7 +2,7 @@
 
 An end-to-end Machine Learning project that leverages demographic, financial, and credit history data to accurately predict whether a loan application will be approved or rejected. The pipeline includes extensive data cleaning, robust group-based mode/median imputation for missing values, feature engineering, and a scaled Logistic Regression classifier.
 
-## 🚀 Performance Highlights
+## Performance Highlights
 * **Validation Accuracy:** 84.86%
 * **Precision (Approved Loans - Class 1):** 0.84
 * **Recall (Approved Loans - Class 1):** 0.97
@@ -10,7 +10,7 @@ An end-to-end Machine Learning project that leverages demographic, financial, an
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 * [cite_start]`Train.csv` - The original training dataset containing historical applicant details and target loan statuses[cite: 3].
 * [cite_start]`Test.csv` - The unseen test dataset used to evaluate the final deployment readiness of the model[cite: 2].
@@ -19,7 +19,7 @@ An end-to-end Machine Learning project that leverages demographic, financial, an
 
 ---
 
-## 🛠️ Features & Engineering Workflow
+## Features & Engineering Workflow
 
 To maximize data integrity and optimize model stability, the following preprocessing steps are executed:
 
@@ -37,7 +37,7 @@ To maximize data integrity and optimize model stability, the following preproces
 
 ---
 
-## 📊 Evaluation Report
+## Evaluation Report
 
 The Logistic Regression model demonstrates strong predictive capabilities on stratified validation data:
 
@@ -51,7 +51,7 @@ The Logistic Regression model demonstrates strong predictive capabilities on str
    macro avg       0.87      0.78      0.80       185
 weighted avg       0.85      0.85      0.84       185
 ```
-## 💻 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have the following Python libraries installed:
